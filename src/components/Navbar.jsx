@@ -12,7 +12,17 @@ const Navbar = () => {
         <a href="#iphone">iPhone</a>
         <a href="#watch">Watch</a>
         <a href="#airpods">AirPods</a>
-        <span className="nav-icon">🔍</span>
+
+        {}
+        <div className="nav-search-box">
+          <span className="search-icon">🔍</span>
+          <input
+            type="text"
+            placeholder="Tìm kiếm..."
+            className="nav-search-input"
+          />
+        </div>
+
         <span className="nav-icon">🛍️</span>
       </div>
     </nav>
