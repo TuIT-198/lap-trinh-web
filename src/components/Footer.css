@@ -1,0 +1,77 @@
+.apple-footer {
+  background-color: #f5f5f7;
+  color: #86868b;
+  font-size: 12px;
+  padding: 30px 20px;
+  border-top: 1px solid #d2d2d7;
+  margin-top: 60px;
+}
+
+.footer-container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.footer-contact p {
+  font-size: 14px;
+  margin: 5px 0;
+  color: #1d1d1f;
+}
+
+.contact-links {
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+.contact-links p {
+  color: #86868b;
+}
+
+.contact-links a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+.contact-links a:hover {
+  text-decoration: underline;
+}
+
+.footer-divider {
+  height: 1px;
+  background-color: #d2d2d7;
+  width: 100%;
+  margin: 20px 0;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.footer-bottom p {
+  margin: 0;
+}
+
+.footer-legal a {
+  color: #515154;
+  text-decoration: none;
+  margin: 0 8px;
+}
+
+.footer-legal a:hover {
+  text-decoration: underline;
+  color: #1d1d1f;
+}
+
+@media (max-width: 768px) {
+  .footer-bottom {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .footer-legal {
+    margin-top: 10px;
+  }
+}
